@@ -3,27 +3,27 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "万物之时",
     // 站点描述
-    description: "Hello World",
+    description: "万物之时的个人博客",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://wwzsvitepress.pages.dev",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "万物之时",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      email: "wwzs@proton.me",
+      link: "https://126330.xyz",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "",
   // 建站日期
-  since: "2020-07-28",
+  since: "2024-11-1",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -40,7 +40,7 @@ export const themeConfig = {
           rel: "alternate",
           type: "application/rss+xml",
           title: "RSS",
-          href: "https://blog.imsyy.top/rss.xml",
+          href: "https://blog.24811213.xyz/rss.xml",
         },
       ],
       // 预载 CDN
@@ -134,7 +134,7 @@ export const themeConfig = {
       ],
     },
     {
-      text: "我的",
+      text: "关于",
       items: [
         { text: "畅所欲言", link: "/pages/message", icon: "chat" },
         { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
@@ -149,13 +149,38 @@ export const themeConfig = {
       list: [
         {
           icon: "/images/logo/logo.webp",
-          name: "主站",
-          url: "/",
+          name: "博客主站",
+          url: "https://blog.wwzs.fun/",
         },
         {
           icon: "/images/logo/logo.webp",
-          name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
+          name: "个人主页",
+          url: "https://126330.xyz/",
+        },
+      ],
+    },
+    {
+      name: "常用",
+      list: [
+        {
+          icon: "https://cover.ruom.top/favicon.ico",
+          name: "封面制作",
+          url: "https://cover.ruom.top/",
+        },
+        {
+          icon: "https://www.favicon.vip/get.php?url=img.ytian.us.kg",
+          name: "兰空图床",
+          url: "https://img.ytian.us.kg/",
+        },
+        {
+          icon: "https://pan.811520.xyz/2024-10/插入链接.webp",
+          name: "短链生成",
+          url: "https://slink.yutian81.top/duanlian",  
+        },
+        {
+          icon: "https://ctool.dev/favicon.ico",
+          name: "开发工具",
+          url: "https://ctool.dev/",
         },
       ],
     },
@@ -163,34 +188,14 @@ export const themeConfig = {
       name: "服务",
       list: [
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+          icon: "https://pan.811520.xyz/2024-11/1730875618-1730875614898.webp",
           name: "今日热榜",
           url: "https://hot.imsyy.top/",
         },
         {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "站点监测",
-          url: "https://status.imsyy.top/",
-        },
-      ],
-    },
-    {
-      name: "项目",
-      list: [
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Curve",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-          name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
+          icon: "https://rss.811520.xyz/favicon.ico",
+          name: "博客友圈",
+          url: "https://rss.811520.xyz/",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
